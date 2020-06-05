@@ -33,6 +33,7 @@ from typing import Dict
 from .nodes import partition_by_day
 from kedro.pipeline import Pipeline, node
 
+from kedro.io import core
 
 
 def create_pipelines(**kwargs) -> Dict[str, Pipeline]:
